@@ -1,5 +1,6 @@
 # oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
 
 # Location for custom oh-my-zsh themes
 ZSH_CUSTOM="$HOME/.custom/shell/zsh"
@@ -20,4 +21,3 @@ plugins=(
   docker-compose
 )
 
-source $ZSH/oh-my-zsh.sh
