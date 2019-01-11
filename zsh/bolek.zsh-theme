@@ -15,7 +15,7 @@ alias todos="code ~/Dropbox/todos.md"
 TIMESTAMP_="%{$fg[white]%}%{$fg_bold[red]%}%D{%Y-%m-%d}|%T%{$fg[white]%}%{$reset_color%}"
 MACHINE_="%{$fg_bold[yellow]%}%n@%m"
 LOCATION_="%{$fg[blue]%}%3~%{$reset_color%}"
-ERROR_="%(0?. .%{$fg_bold[red]%}%? )"
+ERROR_="%(0?..%{$fg_bold[red]%}%? )"
 CURSOR="%{$fg_bold[blue]%}$%{${reset_color}%}"
 GIT_="\$(git_prompt_info)"
 
