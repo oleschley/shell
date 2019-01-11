@@ -1,5 +1,5 @@
 # oh-my-zsh
-export ZSH="/home/ols/.oh-my-zsh"
+export ZSH="/home/$USER/.oh-my-zsh"
 
 # Location for custom oh-my-zsh themes
 # ZSH_CUSTOM="/path/to/new-custom-folder"
