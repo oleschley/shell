@@ -10,5 +10,11 @@ alias todos="code ~/Dropbox/todos.md"
 
 
 # Command prompt
-PROMPT="%{${fg_bold[yellow]}%}%n@%m %{${fg[blue]}%}%3~%(0?. . %{${fg[red]}%}%? )%{${fg[blue]}%}$%{${reset_color}%} "
+
+## Components
+TIMESTAMP_="%{$fg[white]%}{%{$fg[yellow]%}%D %T%{$fg[white]%}}%{$reset_color%}"
+
+
+## Prompt
+PROMPT="$TIMESTAMP_ %{${fg_bold[yellow]}%}%n@%m %{${fg[blue]}%}%3~%(0?. . %{${fg[red]}%}%? )%{${fg[blue]}%}$%{${reset_color}%} "
 

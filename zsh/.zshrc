@@ -2,7 +2,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Location for custom oh-my-zsh themes
-# ZSH_CUSTOM="/path/to/new-custom-folder"
+ZSH_CUSTOM="$HOME/.custom/shell/zsh"
 ZSH_THEME="bolek"
 
 # Time format for history command output
