@@ -8,8 +8,6 @@ ZSH_THEME="bolek"
 # Time format for history command output
 HIST_STAMPS="yyyy-mm-dd"
 
-source $ZSH/oh-my-zsh.sh
-
 # Load plugins
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -21,3 +19,5 @@ plugins=(
   docker
   docker-compose
 )
+
+source $ZSH/oh-my-zsh.sh
